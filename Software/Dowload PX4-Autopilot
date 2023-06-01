@@ -23,8 +23,6 @@
 
  $ sudo apt-get install python-catkin-tools python-rosinstall-generator -y
 
- $ wstool init ~/catkin_ws/src
-
  $ rosinstall_generator --rosdistro kinetic mavlink | tee /tmp/mavros.rosinstall
 
  $ rosinstall_generator --upstream mavros | tee -a /tmp/mavros.rosinstall
@@ -42,6 +40,8 @@
  $ source devel/setup.bash
 
 #Agora, use o comando cd e logo em seguida dê nano ~/.bashrc e adicione no final:
+
+ $ source ~/catkin_ws/devel/setup.bash
 
  $ source ~/PX4-Autopilot/Tools/simulation/gazebo-classic/setup_gazebo.bash ~/PX4-Autopilot    ~/PX4-Autopilot/build/px4_sitl_default
 
