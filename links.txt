@@ -30,7 +30,14 @@ https://ardupilot.org/planner/docs/common-mission-planning.html
 ####dronekit#####
 https://dronekit.io/
 
+#######################################################################
+HARDWARE
 
+https://github.com/NVIDIA-AI-IOT/redtail/wiki/3DR-Iris-Setup#initial-setup-and-test
+
+#######################################################################
+SOFTWARE
+https://github.com/NVIDIA-AI-IOT/redtail/wiki/Testing-in-Simulator#running-the-controller-only
 
 #######################################################################
 3DR Drone Manuals
