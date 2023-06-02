@@ -39,6 +39,9 @@ https://github.com/NVIDIA-AI-IOT/redtail/wiki/3DR-Iris-Setup#initial-setup-and-t
 SOFTWARE
 https://github.com/NVIDIA-AI-IOT/redtail/wiki/Testing-in-Simulator#running-the-controller-only
 
+https://github.com/AS4SR/general_info/wiki/ArduPilot%3A-Instructions-to-set-up-and-run-an-autopilot-using-SITL-and-Gazebo-simulator
+
+https://github.com/JohnHau/mis/wiki/Embedded----open-source--quadcopter
 #######################################################################
 3DR Drone Manuals
 
