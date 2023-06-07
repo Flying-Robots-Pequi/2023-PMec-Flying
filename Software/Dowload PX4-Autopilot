@@ -13,7 +13,7 @@
 
  $ mkdir -p ~/catkin_ws/src
 
- $ cd ~/catkin_w
+ $ cd ~/catkin_ws
 
  $ catkin init 
 
@@ -27,13 +27,12 @@
 
  $ rosinstall_generator --upstream mavros | tee -a /tmp/mavros.rosinstall
 
+#Em catkin_ws/
  $ wstool merge -t src /tmp/mavros.rosinstall
 
  $ wstool update -t src -j4
 
  $ rosdep install --from-paths src --ignore-src -y
-
-#Em catkin_ws/
 
  $ catkin build
 
