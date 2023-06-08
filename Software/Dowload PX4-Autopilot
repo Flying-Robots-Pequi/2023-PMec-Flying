@@ -21,8 +21,6 @@
  
 #Em catkin_ws/src/
 
- $ sudo apt-get install python-catkin-tools python-rosinstall-generator -y
-
  $ rosinstall_generator --rosdistro kinetic mavlink | tee /tmp/mavros.rosinstall
 
  $ rosinstall_generator --upstream mavros | tee -a /tmp/mavros.rosinstall
@@ -42,18 +40,24 @@
 
  $ source ~/catkin_ws/devel/setup.bash
 
- $ source ~/PX4-Autopilot/Tools/simulation/gazebo-classic/setup_gazebo.bash ~/PX4-Autopilot    ~/PX4-Autopilot/build/px4_sitl_default
+ $ source ~/PX4-Autopilot/Tools/simulation/gazebo-classic/setup_gazebo.bash ~/PX4-Autopilot ~/PX4-Autopilot/build/px4_sitl_default
 
  $ export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:~/PX4-Autopilot
 
- $ export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:~/PX4-Autopilot/Tools/simulation/gazebo-  classic/sitl_gazebo-classic
+ $ export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:~/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic
 
  $ export GAZEBO_PLUGIN_PATH=$GAZEBO_PLUGIN_PATH:/usr/lib/x86_64-linux-gnu/gazebo-11/plugin
  
-
 #Salve a modificação dando Ctrl-X e logo em seguida dê o comando source .bashrc para atualizar .bashrc
 
-#Logo após de abra 3 terminais diferentes
+#Antes de continuar, dê cd (caso esteja em algum arquivo) e digite:
+
+$ cd PX4-Autopilot
+$ make px4_sitl gazebo-classic_iris_opt_flow
+
+#O comando anterior instala o modelo do drone e é necessário para dar os próximos comandos.
+
+#Logo após abra 3 terminais diferentes
 
 #No primeiro:
 
