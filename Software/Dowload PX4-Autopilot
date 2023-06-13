@@ -53,6 +53,7 @@
 #Antes de continuar, dê cd (caso esteja em algum arquivo) e digite:
 
 $ cd PX4-Autopilot
+
 $ make px4_sitl gazebo-classic_iris_opt_flow
 
 #O comando anterior instala o modelo do drone e é necessário para dar os próximos comandos.
@@ -78,7 +79,12 @@ $ make px4_sitl gazebo-classic_iris_opt_flow
  #No segundo é iniciado a simulação do gazebo em um mundo escolhido contido no repositório do  PX4-Autopilot,no caso está setado para um mundo default empty_world.
  
  #No terceiro é setado o modelo a ser utilizado,no caso é o iris_opt_flow , e a sua posição de spawn.
- 
+  
+#Extra: caso tenha o QGroundControl instalado no computador dẽ:
+      
+      $ ./QGroundControl.AppImage
+      
+ #ele automaticamente irá linkar o px4 e a partir dele pode-se utilzá-ló para controlar o drone na simulação do gazebo.      
  
 
 
