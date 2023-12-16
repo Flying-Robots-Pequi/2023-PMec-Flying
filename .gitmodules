@@ -1,0 +1,24 @@
+[submodule "simulation/Turtlebot-Simulation"]
+	path = simulation/Turtlebot-Simulation
+	url = https://github.com/Flying-Robots-Pequi/Turtlebot-Simulation.git
+[submodule "simulation/clark-description"]
+	path = simulation/clark-description
+	url = https://github.com/Flying-Robots-Pequi/clark-description.git
+[submodule "simulation/clark-simulation"]
+	path = simulation/clark-simulation
+	url = git@github.com:Flying-Robots-Pequi/clark-simulation.git
+[submodule "simulation/2023-simulation-dev"]
+	path = simulation/2023-simulation-dev
+	url = git@github.com:Flying-Robots-Pequi/2023-simulation-dev.git
+[submodule "software/clark-odom"]
+	path = software/clark-odom
+	url = git@github.com:Flying-Robots-Pequi/clark-odom.git
+[submodule "hardware/2023-hardware-config"]
+	path = hardware/2023-hardware-config
+	url = git@github.com:Flying-Robots-Pequi/2023-hardware-config.git
+[submodule "software/pose_from_odom"]
+	path = software/pose_from_odom
+	url = git@github.com:Flying-Robots-Pequi/pose_from_odom.git
+[submodule "software/2023-tutorials"]
+	path = software/2023-tutorials
+	url = git@github.com:Flying-Robots-Pequi/2023-tutorials.git
