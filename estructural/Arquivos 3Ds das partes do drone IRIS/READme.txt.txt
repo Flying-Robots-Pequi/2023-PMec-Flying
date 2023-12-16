@@ -1,1 +1,0 @@
-Nesta pasta eu adicionei os arquivos tridimensionais da parte estrutural do drone IRIS
